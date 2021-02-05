@@ -1,3 +1,4 @@
+// This function allows to create user account
 function signup() {
   var firstName = document.getElementById("firstName").value;
   var verifFirstName = verifLength(firstName, 5);
@@ -123,6 +124,7 @@ function addProduct() {
     document.getElementById("categoryError").innerHTML = "Invalid category";
     document.getElementById("categoryError").style.color = "red";
   }
+
   if (
     verifProductName &&
     verifPrice &&
